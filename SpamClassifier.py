@@ -1,6 +1,6 @@
 # importing the Dataset
 import nltk
-nltk.data.path.append(r'D:\LearnProjects\DeepLearning\NLP\nltk_download')
+#nltk.data.path.append(r'D:\LearnProjects\DeepLearning\NLP\nltk_download')
 import pandas as pd
 
 messages = pd.read_csv('smsspamcollection/SMSSpamCollection', sep='\t',
